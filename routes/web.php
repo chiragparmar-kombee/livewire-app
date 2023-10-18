@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Counter;
+use App\Livewire\CreatePost;
+use App\Livewire\SearchPosts;
+use App\Livewire\ShowPosts;
+use App\Livewire\TodoList;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +23,8 @@ Route::get('/', function () {
 });
 
 Route::get('/counter', Counter::class);
+Route::get('/todo', TodoList::class);
+
+Route::get('/post/add', CreatePost::class);
+Route::get('/posts', ShowPosts::class);
+Route::get('/search-posts', SearchPosts::class);
