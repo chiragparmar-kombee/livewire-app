@@ -5,6 +5,7 @@ use App\Livewire\Counter;
 use App\Livewire\CreatePost;
 use App\Livewire\SearchPosts;
 use App\Livewire\ShowPosts;
+use App\Livewire\Steps;
 use App\Livewire\TodoList;
 
 /*
@@ -28,3 +29,4 @@ Route::get('/todo', TodoList::class);
 Route::get('/post/add', CreatePost::class);
 Route::get('/posts', ShowPosts::class);
 Route::get('/search-posts', SearchPosts::class);
+Route::get('/steps', Steps::class);
