@@ -846,15 +846,6 @@
         </div>
         @endif
 
-        <nav>
-            <a href="/" wire:navigate>Dashboard</a><br>
-            <a href="/todo" wire:navigate>Todo</a><br>
-            <a href="/post/add" wire:navigate>Add Post</a><br>
-            <a href="/posts" wire:navigate>Post Listing</a><br>
-            <a href="/search-posts" wire:navigate>Search Posts</a><br>
-            <a href="/steps" wire:navigate>Steps</a><br>
-        </nav>
-
         <div class="max-w-7xl mx-auto p-6 lg:p-8">
             <div class="flex justify-center">
                 <svg viewBox="0 0 62 65" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto bg-gray-100 dark:bg-gray-900">
