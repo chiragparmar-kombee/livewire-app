@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\ChatBot;
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Counter;
 use App\Livewire\CreatePost;
@@ -7,6 +8,7 @@ use App\Livewire\SearchPosts;
 use App\Livewire\ShowPosts;
 use App\Livewire\Steps;
 use App\Livewire\TodoList;
+use App\Livewire\CountDown;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,3 +32,5 @@ Route::get('/post/add', CreatePost::class);
 Route::get('/posts', ShowPosts::class);
 Route::get('/search-posts', SearchPosts::class);
 Route::get('/steps', Steps::class);
+Route::get('/count-down', CountDown::class);
+Route::get('/chat', ChatBot::class);

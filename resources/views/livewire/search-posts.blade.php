@@ -11,6 +11,10 @@
         <button type="button" wire:click="delete({{ $post->id }})" wire:confirm="Are you sure you want to delete this post?">
             Delete
         </button>
+
+        <button type="button" wire:click="delete" wire:confirm.prompt="Are you sure?\n\nType DELETE to confirm|DELETE">
+            Delete account
+        </button>
     </div>
     @endforeach
 </div>
